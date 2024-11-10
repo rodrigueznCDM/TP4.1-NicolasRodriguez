@@ -7,9 +7,6 @@ print("TP4.1 - POO #1\n")
 
 
 class StringFoo:
-    def __init__(self):
-        self.message = "[message here]"
-
     def set_string(self, string):
         self.message = string
 
