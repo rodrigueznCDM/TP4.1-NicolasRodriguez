@@ -55,7 +55,7 @@ class Fighter:
         if enemy_attack_roll >= armour_class:
             self.hit_points -= damage
 
-        if enemy_attack_roll < armour_class:
+        elif enemy_attack_roll < armour_class:
             # Aucun dégas
             pass
 
